@@ -1,9 +1,9 @@
 class Tahcia < Formula
   desc "Tahcia CLI tunnel"
   homepage "https://www.tahcia.com"
-  version "1.0.10"
-  url "https://github.com/tahcia/cli/releases/download/v1.0.10/tahcia.zip"
-  sha256 "3fdd020dd0c7ea1e68bee9d85f67b903ce5ab9480b9e8215755c2e962e9ad51e"
+  version "1.0.11"
+  url "https://github.com/tahcia/cli/releases/download/v1.0.11/tahcia.zip"
+  sha256 "173c9dd22538246845c1b7d771f25f0179a130ea36b5a89e1a49d510dc15946a"
 
   depends_on "node"
 
