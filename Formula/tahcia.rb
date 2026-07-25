@@ -3,7 +3,7 @@ class Tahcia < Formula
   homepage "https://www.tahcia.com"
   version "1.0.11"
   url "https://github.com/tahcia/cli/releases/download/v1.0.11/tahcia.zip"
-  sha256 "173c9dd22538246845c1b7d771f25f0179a130ea36b5a89e1a49d510dc15946a"
+  sha256 "6f32b3c48816832016d440dd08311498c3d678c281d29bc16653109accf1d20e"
 
   depends_on "node"
 
