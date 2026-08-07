@@ -1,15 +1,16 @@
 class Tahcia < Formula
   desc "Tahcia CLI tunnel"
   homepage "https://www.tahcia.com"
-  version "1.0.11"
-  url "https://github.com/tahcia/cli/releases/download/v1.0.11/tahcia.zip"
-  sha256 "6f32b3c48816832016d440dd08311498c3d678c281d29bc16653109accf1d20e"
+  version "1.0.12"
+  url "https://github.com/tahcia/cli/releases/download/v1.0.12/tahcia.zip"
+  sha256 "90bcec7e9706bc3b5414a4d7dbd82197753effe582d7f66b0de4aa7a85615c69"
 
   depends_on "node"
 
   def install
     bin.install "tahcia"    
     bin.install "tahcia.js"
+    bin.install "tahcia-antigravity.py"
     bin.install "tahcia-mac"
   end
 
