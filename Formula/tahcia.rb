@@ -1,9 +1,9 @@
 class Tahcia < Formula
   desc "Tahcia CLI tunnel"
   homepage "https://www.tahcia.com"
-  version "1.0.12"
-  url "https://github.com/tahcia/cli/releases/download/v1.0.12/tahcia.zip"
-  sha256 "90bcec7e9706bc3b5414a4d7dbd82197753effe582d7f66b0de4aa7a85615c69"
+  version "1.0.17"
+  url "https://github.com/tahcia/cli/releases/download/v1.0.17/tahcia.zip"
+  sha256 "2531fbaad9c2cf3d65dafc2c89c725b646fc3bd4cf23d80347c333624f6e5bae"
 
   depends_on "node"
 
@@ -11,6 +11,7 @@ class Tahcia < Formula
     bin.install "tahcia"    
     bin.install "tahcia.js"
     bin.install "tahcia-antigravity.py"
+    bin.install "kokoro.py"
     bin.install "tahcia-mac"
   end
 
